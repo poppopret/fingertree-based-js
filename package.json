@@ -1,8 +1,8 @@
 {
   "name": "fingertree-based",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Applications of Finger Tree",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "webpack --mode production",
     "debug": "webpack --mode development --watch",
