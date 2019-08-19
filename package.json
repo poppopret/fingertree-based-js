@@ -1,6 +1,6 @@
 {
   "name": "fingertree-based",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Applications of Finger Tree",
   "main": "src/index.js",
   "scripts": {
@@ -47,6 +47,6 @@
     "silent": true
   },
   "dependencies": {
-    "fingertree-js": "^1.0.0"
+    "fingertree-js": "^1.0.1"
   }
 }
