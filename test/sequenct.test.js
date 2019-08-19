@@ -1,6 +1,6 @@
 import { Sequence } from '../src';
 
-describe('Search', () => {
+describe('Sequence', () => {
     let seq;
     beforeEach(() => {
         seq = new Sequence;
@@ -26,6 +26,8 @@ describe('Search', () => {
         expect(seq.get(0)).toEqual(999);
         seq.set(2, 7);
         expect(seq.get(2)).toEqual(7);
+        seq.set(-2, 9);
+        expect(seq.get(-2)).toEqual(9);
         expect(seq.length).toEqual(5);
     });
 });
