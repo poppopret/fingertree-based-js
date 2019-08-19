@@ -1,0 +1,52 @@
+{
+  "name": "fingertree-based",
+  "version": "1.0.0",
+  "description": "Applications of Finger Tree",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "debug": "webpack --mode development --watch",
+    "lint": "eslint .",
+    "test": "jest",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poppopret/fingertree-based-js.git"
+  },
+  "keywords": [
+    "fingertree",
+    "data-structures",
+    "sequence",
+    "priority-queue"
+  ],
+  "author": "poppopret",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poppopret/fingertree-based-js/issues"
+  },
+  "homepage": "https://github.com/poppopret/fingertree-based-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0",
+    "pre-commit": "^1.2.2",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "pre-commit": {
+    "run": [
+      "lint"
+    ],
+    "silent": true
+  },
+  "dependencies": {
+    "fingertree-js": "^1.0.0"
+  }
+}
