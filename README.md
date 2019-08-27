@@ -32,14 +32,14 @@ Get element positioned by index, zero-indexed. Minus value is also allowed. It w
 ```javascript
 sequence.get(0); // get the first element
 sequence.get(-1); // get the last element
-sequence.get(1000000); // throws an error if index out of range
+sequence.get(1000000); // throws an error if `index` is out of range
 ```
 #### set(index, val)
 Set element at `index`. Similar rules with `index` work like `get` here.
 ```javascript
 sequence.set(0, 'hello'); // set the first element
-sequence.set(-1, 1); // set the first element
-sequence.set(10000, 'error'); // throws an error if index out of range
+sequence.set(-1, 1); // set the last element
+sequence.set(10000, 'error'); // throws an error if `index` is out of range
 ```
 
 ### PriorityQueue
@@ -60,7 +60,7 @@ Push an element of any type with `priority`. `priority` should be a non-negative
 ```javascript
 queue.push('a', 1);
 queue.push(123, 0);
-queue.push('error', -1); // throws an error
+queue.push('error', -1); // throws an error if `priority` is negative
 ```
 #### pop()
 Pop the element with largest priority. Throws an error if queue is already empty.
