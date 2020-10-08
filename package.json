@@ -1,6 +1,6 @@
 {
   "name": "fingertree-based",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Applications of Finger Tree",
   "main": "build/index.js",
   "scripts": {
@@ -31,11 +31,11 @@
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "babel-eslint": "^10.0.2",
-    "babel-jest": "^24.8.0",
+    "babel-jest": "^26.5.2",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "eslint": "^6.1.0",
-    "jest": "^24.8.0",
+    "jest": "^26.5.2",
     "pre-commit": "^1.2.2",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
@@ -47,6 +47,6 @@
     "silent": true
   },
   "dependencies": {
-    "fingertree-js": "^1.0.1"
+    "fingertree-js": "^1.0.3"
   }
 }
